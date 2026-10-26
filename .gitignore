@@ -1,0 +1,30 @@
+# Environment dan secret
+backend/.env
+backend/.env.*
+!backend/.env.example
+
+# Dependency
+backend/vendor/
+frontend/node_modules/
+node_modules/
+
+# Build dan cache
+frontend/dist/
+dist/
+backend/bootstrap/cache/*.php
+backend/storage/framework/cache/*
+backend/storage/framework/sessions/*
+backend/storage/framework/views/*
+backend/storage/logs/*
+!backend/storage/logs/.gitignore
+
+# Test/coverage
+frontend/coverage/
+backend/.phpunit.result.cache
+backend/.phpunit.cache/
+
+# Editor dan OS
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
